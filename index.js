@@ -7,6 +7,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/users',(req,res)=>{
+    console.log("server request comming")
     res.status(200).json({
         message:"working"
     })
